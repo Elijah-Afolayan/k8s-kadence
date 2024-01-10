@@ -38,7 +38,7 @@ This repository contains a simple Flask application designed to demonstrate the 
     Replace `<bg-color>` with your desired background color.
     Replace `<font-color>` with your desired font color.
     ```sh
-    docker run -p 5000:5000 -e USERNAME=<username> -e BG_COLOR=<bg-color> -e FONT_COLOR=<font-color> myflaskapp 
+    docker run -p 5000:5000 -e USERNAME=<username> -e BG_COLOR=<bg-color> -e FONT_COLOR=<font-color> myflaskapp:v2 
     ```
 
 4. **Access the Application:**
